@@ -29,7 +29,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: var(--lilas-claro);
   color: var(--texto);
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 /* HEADER */
@@ -98,6 +98,11 @@ section {
   color: var(--lilas-escuro);
 }
 
+.bio p {
+  text-align: justify;
+  margin-bottom: 16px;
+}
+
 /* LIVROS */
 .cards {
   display: grid;
@@ -131,16 +136,6 @@ section {
   margin-bottom: 10px;
 }
 
-/* CTA FINAL */
-.cta {
-  background: var(--lilas-escuro);
-  text-align: center;
-  color: var(--branco);
-  padding: 90px 20px;
-  border-radius: 40px;
-  margin: 90px auto;
-}
-
 /* FOOTER */
 footer {
   background: var(--lilas);
@@ -149,7 +144,7 @@ footer {
   text-align: center;
 }
 
-.social a {
+footer a {
   color: var(--branco);
   text-decoration: none;
   display: inline-flex;
@@ -163,6 +158,10 @@ footer {
   .bio {
     grid-template-columns: 1fr;
     text-align: center;
+  }
+
+  .bio p {
+    text-align: left;
   }
 
   header h1 {
@@ -189,16 +188,30 @@ footer {
   <img src="lidiacabral.jpeg" alt="Lídia Cabral">
   <div>
     <h2>De Guaratiba ao mundo</h2>
+
     <p>
-      Lídia Maria Cabral de Miranda Lídia Cabral nasceu em Guaratiba, Rio de Janeiro.
-Artista plástica,  poetisa, escritora, professora licenciada em Língua Portuguesa/ Literatura e Língua francesa.
-Autora de 7 livros e participante de várias Antologias. Participou da Bienal  Internacional do Livro em São Paulo e no Rio de Janeiro.
-Confreira do  Instituto Campograndense de cultura e da Confraria dos Poetas Absurdos. Em 2025 foi condecorada com o título de embaixadora pela 
-Divine Académie Litéraire Française des Arts Lettres et Culture em Paris (França).
+      Lídia Maria Cabral de Miranda, conhecida literariamente como Lídia Cabral, nasceu em Guaratiba, no Rio de Janeiro.
+      Escritora, poetisa, artista plástica e professora licenciada em Língua Portuguesa, Literatura e Língua Francesa,
+      construiu ao longo dos anos uma trajetória marcada pelo compromisso com a educação, a arte e a palavra como instrumento
+      de transformação humana.
     </p>
+
     <p>
-      Sua escrita nasce da fé, da experiência e da sensibilidade.
-      Ela escreve para curar, ensinar e inspirar mulheres, crianças e leitores da alma.
+      Autora de sete livros e participante de diversas antologias literárias, integrou importantes eventos do cenário cultural,
+      como as Bienais Internacionais do Livro de São Paulo e do Rio de Janeiro. É confrreira do Instituto Campograndense de Cultura
+      e da Confraria dos Poetas Absurdos, espaços dedicados à valorização da literatura contemporânea.
+    </p>
+
+    <p>
+      Em reconhecimento à relevância de sua obra e à contribuição para a cultura, foi condecorada, em 2025, com o título de
+      Embaixadora da <em>Divine Académie Littéraire Française des Arts, Lettres et Culture</em>, em Paris, França,
+      consolidando sua presença no cenário literário internacional.
+    </p>
+
+    <p>
+      Sua escrita nasce da fé, da experiência e de uma sensibilidade profundamente humana.
+      Seus textos dialogam com mulheres, crianças e leitores da alma, oferecendo acolhimento,
+      reflexão e esperança. Cada obra reafirma o valor da palavra como legado e inspiração.
     </p>
   </div>
 </section>
@@ -238,7 +251,6 @@ Divine Académie Litéraire Française des Arts Lettres et Culture em Paris (Fra
       <a href="https://wa.me/5521995551444" class="btn">Eu quero</a>
     </div>
 
-    <!-- Card do livro com dedicatória -->
     <div class="card">
       <img src="autografo.jpg" alt="Livro com dedicatória">
       <h3>Livro com Dedicatória</h3>
@@ -253,11 +265,10 @@ Divine Académie Litéraire Française des Arts Lettres et Culture em Paris (Fra
   <p>© 2026 Lídia Cabral — Todos os direitos reservados</p>
   <p>Design by Ⓧ Ctrl X - Arte Digital</p>
 
-  <!-- Instagram -->
   <a href="https://www.instagram.com/lidia.cabral.376" target="_blank">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="#ffffff"
       xmlns="http://www.w3.org/2000/svg">
-      <path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm10 2a3 3 0 013 3v10a3 3 0 01-3 3H7a3 3 0 01-3-3V7a3 3 0 013-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm4.5-.9a1.1 1.1 0 100 2.2 1.1 1.1 0 000-2.2z"/>
+      <path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm10 2a3 3 0 013 3v10a3 3 0 01-3 3H7a3 3 0 01-3-3V7a3 3 0 013-3h10z"/>
     </svg>
     <span>Siga-nos no Instagram</span>
   </a>
@@ -265,4 +276,3 @@ Divine Académie Litéraire Française des Arts Lettres et Culture em Paris (Fra
 
 </body>
 </html>
-
